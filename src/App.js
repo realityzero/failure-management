@@ -4,6 +4,8 @@ import Button from './components/StatelessComponent';
 import StatefulButton from './components/StatefulComponent';
 import SideEffectButton from './components/SideEffectComponent';
 import UseMemoComponent from './components/UseMemoComponent';
+import { UseRefComponent } from './components/UseRefComponent';
+import { ContextComponent } from './components/ContextComponent';
 
 function App() {
   return (
@@ -13,6 +15,9 @@ function App() {
       <StatefulButton>StatefulButton</StatefulButton>
       <SideEffectButton>SideEffectButton</SideEffectButton>
       <UseMemoComponent></UseMemoComponent>
+      <UseRefComponent></UseRefComponent>
+      <br/>
+      <ContextComponent/>
     </div>
   );
 }
