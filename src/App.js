@@ -7,6 +7,7 @@ import UseMemoComponent from './components/UseMemoComponent';
 import { UseRefComponent } from './components/UseRefComponent';
 import { ContextComponent } from './components/ContextComponent';
 import ReducerComponent from './components/ReducerComponent';
+import TodoReducerComponent from './components/TodoReducerComponent';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <br/>
       <ContextComponent/>
       <ReducerComponent/>
+      <TodoReducerComponent/>
     </div>
   );
 }
