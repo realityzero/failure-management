@@ -6,6 +6,7 @@ import SideEffectButton from './components/SideEffectComponent';
 import UseMemoComponent from './components/UseMemoComponent';
 import { UseRefComponent } from './components/UseRefComponent';
 import { ContextComponent } from './components/ContextComponent';
+import ReducerComponent from './components/ReducerComponent';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <UseRefComponent></UseRefComponent>
       <br/>
       <ContextComponent/>
+      <ReducerComponent/>
     </div>
   );
 }
