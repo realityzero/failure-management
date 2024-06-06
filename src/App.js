@@ -8,6 +8,8 @@ import { UseRefComponent } from './components/UseRefComponent';
 import { ContextComponent } from './components/ContextComponent';
 import ReducerComponent from './components/ReducerComponent';
 import TodoReducerComponent from './components/TodoReducerComponent';
+import CallbackComponent from './components/CallbackComponent';
+import InteractiveShape from './components/InteractiveShape';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <ContextComponent/>
       <ReducerComponent/>
       <TodoReducerComponent/>
+      <CallbackComponent/>
+      <InteractiveShape/>
     </div>
   );
 }
